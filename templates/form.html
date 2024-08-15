@@ -1,0 +1,9 @@
+<h1>This is the form</h1>
+<form action="{{url_for('form')}}" method="POST">
+    <label for="Maths" required='required'>Maths:</label><br>
+    <input type="text" id="Maths" name="Maths"><br>
+    <label for="Science" required='required'>Science:</label><br>
+    <input type="text" id="Science" name="Science"><br>
+    <input type="submit" value="Submit">
+</form>
+<br> The average marks is {{score}}
